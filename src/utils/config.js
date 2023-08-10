@@ -1,1 +1,1 @@
-export const BASEURL = "http://localhost:8000/api/v1"
+export const BASEURL = "https://mern-blood-bank.vercel.app/api/v1"
