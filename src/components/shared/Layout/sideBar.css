@@ -1,0 +1,93 @@
+.sidebar {
+    height: 100vh !important;
+    
+    background-color: #2e3200;
+    box-shadow: 0 0 2px gray;
+    color: red;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+  }
+  
+  .menu {
+    padding-top: 190px;
+
+    
+  }
+  
+  .menu-item {
+    padding-top: 30px;
+    &:hover{
+      background-color: white;
+    }
+  }
+  
+  .menu-item a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .menu-item i {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: red;
+    
+  }
+  
+  .active {
+    background-color: orangered;
+    /* padding: 10px; */
+    /* margin-top: 25px; */
+  }
+  
+  .active a,
+  .active i {
+    color: yellow;
+  } 
+
+
+  /* .sidebar {
+    background-color: #EBB02D;
+    height: 100vh;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+    padding: 20px 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .menu-item i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .menu-item.active {
+    background-color: #FFC107;
+  }
+  
+  .menu-item:hover {
+    background-color: #FFC107;
+    cursor: pointer;
+  }
+  
+  .menu-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-item a:hover {
+    color: #333;
+  }
+   */
